@@ -158,7 +158,7 @@ def setup_logging(level):
         level=level
     )
 
-def main(argv):
+def main(argv=None):
     cli = CommandLineHandler(argv)
     cli.execute()
 
