@@ -159,9 +159,6 @@ def setup_logging(level):
     )
 
 def main(argv=None):
-    if argv is None:
-        argv = sys.argv[1:]
-
     cli = CommandLineHandler(argv)
     cli.execute()
 
